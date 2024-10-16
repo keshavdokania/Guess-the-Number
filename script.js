@@ -53,6 +53,7 @@ const check = function () {
         else {
             displayMessage("💥 You Lost the game!");
             document.querySelector('.score').textContent = 0;
+            document.querySelector('body').style.backgroundColor = '#ff4c33';
         }
     }
 };
